@@ -2,7 +2,7 @@
 
 The Git Change Logger is a Node.js utility meant to create a simple change log based off of commit messages.
 
-When making commits, use keywords `bugfix: ` or `bf: ` followed by a description of the bug fixed to denote a bugfix. Use keywords `feature: ` or `feat: ` followed by a description of the feature added to denote a feature add. If a commit has multiple, they can be seperated by a `;` and then continue like before.
+When making commits, use keywords `bugfix: ` or `bf: ` followed by a description of the bug fixed to denote a bugfix. Use keywords `feature: ` or `feat: ` followed by a description of the feature added to denote a feature add. If a commit has multiple, they can be seperated by a `;` and then continued like before.
 
 ## Examples
 
@@ -40,5 +40,5 @@ The Git Change Logger will now have a change-log.html file in it that you can us
 
 ## Notes
 
-- The Git Change Logger uses Node.js to run, but the repos it is used to run on does not need to be Node.js app. Git Change Logger can run on any git repo.
+- The Git Change Logger uses Node.js to run, but the repos it is used on do not need to be Node.js apps. Git Change Logger can run on any git repo.
 - If you experience any bugs or have thoughts on future improvements, please feel free to open an issue.
